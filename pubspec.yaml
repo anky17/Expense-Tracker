@@ -28,13 +28,13 @@ flutter:
   # - images/a_dot_ham.jpeg
 
   # Uncomment to add custom fonts
-  fonts:
-    - family: Inter
-      fonts:
-        - asset: assets/font/Inter-Regular.ttf
-        - asset: assets/font/Inter-Medium.ttf
-          weight: 500
-        - asset: assets/font/Inter-SemiBold.ttf
-          weight: 600
-        - asset: assets/font/Inter-Bold.ttf
-          weight: 700
+  # fonts:
+  #   - family: Inter
+  #     fonts:
+  #       - asset: assets/font/Inter-Regular.ttf
+  #       - asset: assets/font/Inter-Medium.ttf
+  #         weight: 500
+  #       - asset: assets/font/Inter-SemiBold.ttf
+  #         weight: 600
+  #       - asset: assets/font/Inter-Bold.ttf
+  #         weight: 700

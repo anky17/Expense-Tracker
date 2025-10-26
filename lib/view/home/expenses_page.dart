@@ -1,6 +1,6 @@
 import 'dart:convert';
 import 'package:expense_tracker/view/chart/chart_page.dart';
-import 'package:expense_tracker/view/model/expenses_model.dart';
+import 'package:expense_tracker/model/expenses_model.dart';
 import 'package:expense_tracker/view/widget/expenses_list_builer_widget.dart';
 import 'package:expense_tracker/view/widget/new_expenses_manage_widget.dart';
 import 'package:flutter/material.dart';
@@ -141,6 +141,7 @@ class _ExpensesPageState extends State<ExpensesPage> {
         ],
       ),
       floatingActionButton: FloatingActionButton(
+        backgroundColor: Colors.white,
         onPressed: _addExpenseOption,
         child: Image.asset(
           'assets/images/add.png',

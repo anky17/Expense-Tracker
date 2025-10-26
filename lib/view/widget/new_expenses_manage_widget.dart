@@ -1,4 +1,4 @@
-import 'package:expense_tracker/view/model/expenses_model.dart';
+import 'package:expense_tracker/model/expenses_model.dart';
 import 'package:flutter/material.dart';
 
 class NewExpensesWidget extends StatefulWidget {
@@ -129,8 +129,8 @@ class _NewExpensesState extends State<NewExpensesWidget> {
                 child: InkWell(
                   onTap: _presentDatePicker,
                   child: Container(
-                    padding: const EdgeInsets.symmetric(
-                        vertical: 12, horizontal: 10),
+                    padding:
+                        const EdgeInsets.symmetric(vertical: 12, horizontal: 5),
                     decoration: BoxDecoration(
                       border: Border.all(color: Colors.grey),
                       borderRadius: BorderRadius.circular(12),
